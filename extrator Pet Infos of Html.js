@@ -56,4 +56,7 @@ function joinArrays(array1, array2) {
 
 const namePetsAndImgLinks = joinArrays(onlyPetNames, onlyImgLinks)
 
-console.log(namePetsAndImgLinks)
+const writeInfos = fs.writeFileSync(
+  './pets.json',
+  JSON.stringify(namePetsAndImgLinks)
+)

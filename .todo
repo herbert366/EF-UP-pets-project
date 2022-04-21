@@ -1,3 +1,5 @@
 ✔ conseguir extrair nome e foto do 
-☐ deixar arquivo extrator generico
-☐ mandar pra json em vez de um onbject
+✔ arquivo extrator generico @done(22-04-21 00:29)
+✔ mandar pra json em vez de um onbject @done(22-04-21 00:30)
+☐ passar todos pelo extrator generico
+☐
